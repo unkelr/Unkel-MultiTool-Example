@@ -1,4 +1,4 @@
-/// INFO \\\
+-INFO-
 Made By Unkel
 Python
 Feel Free to skid! 🤣
