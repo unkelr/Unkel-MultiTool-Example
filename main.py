@@ -15,6 +15,8 @@ WHITE = Fore.WHITE
 
 ### Change Title :
 os.system('title Unkel Multitool Example')
+print(" Star : https://github.com/unkelr/Unkel-MultiTool-Example/ ")
+time.sleep(2)
 
 
 def cls():
@@ -50,7 +52,7 @@ def menu():
 
                                             2. Discord                      5.
 
-                                            3.                              6. Exit
+                                            3. Github                       6. Exit
 
                     ║══════════════════════════════════════════════════════════════════════════════════║
 """)
@@ -85,7 +87,7 @@ def iplookup():
             menu()
 
         elif choice == "3":
-            webbrowser.open_new_tab("")
+            webbrowser.open_new_tab("https://github.com/unkelr/Unkel-MultiTool-Example/")
 
         elif choice == "4":
             webbrowser.open_new_tab("")
@@ -94,7 +96,7 @@ def iplookup():
             webbrowser.open_new_tab("")
 
         elif choice == "6":
-            print("Cya Next Time! github.com/unkelr")
+            print("Cya Next Time! github.com/unkelr/")
             time.sleep(1)
             break
 
