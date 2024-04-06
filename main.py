@@ -36,7 +36,7 @@ Welcome to Unkel MultiTool!
 """)
 intro()
 ### You can change "RED" to any of the colors listed above.
-time.sleep(0.1)
+time.sleep(2)
 cls()
 
 def menu():
@@ -96,7 +96,7 @@ def iplookup():
             webbrowser.open_new_tab("")
 
         elif choice == "6":
-            print("Cya Next Time! github.com/unkelr/")
+            print("                                Cya Next Time! github.com/unkelr/")
             time.sleep(1)
             break
 
